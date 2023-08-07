@@ -1,0 +1,28 @@
+.services {
+  display: grid;
+  grid-template-columns: 1fr 520px;
+  background-color: rgba(98, 208, 223, 1);
+  color: white;
+  justify-content: end;
+  justify-items: center;
+}
+
+.info {
+  display: flex;
+  width: 580px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 70px 0;
+}
+
+.name {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.text {
+  font-size: 24px;
+  font-style: italic;
+  line-height: 35px;
+}

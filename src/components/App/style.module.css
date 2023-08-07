@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "ABeeZee", sans-serif;
+    font-family: "Montserrat", sans-serif;
+    font-family: "Poller One", cursive;
+  }
+
+.page {
+    max-width: 1440px;
+    margin: 0 auto;
+}
