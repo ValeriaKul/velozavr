@@ -16,3 +16,14 @@
   flex-direction: column;
   gap: 30px;
 }
+
+@media only screen and (min-device-width: 834px) and (max-device-width: 1194px){
+
+  .banner {
+    height: 400px;
+  }
+
+  .text p {
+    font-size: 20px;
+  }
+}

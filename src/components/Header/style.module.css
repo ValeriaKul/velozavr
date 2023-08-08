@@ -1,7 +1,7 @@
 .header {
   background-color: rgba(244, 249, 226, 1);
   display: grid;
-  grid-template-columns: 250px 600px 250px 10px ;
+  grid-template-columns: 250px 600px 250px 10px;
   justify-content: center;
   justify-items: center;
   align-items: center;
@@ -10,7 +10,7 @@
 
 .link {
   margin-right: 60px;
-  size: 14px;
+  font-size: 22px;
   text-decoration: none;
   color: #000000;
   font-family: "ABeeZee", sans-serif;
@@ -21,7 +21,8 @@
   padding-bottom: 10px;
 }
 
-.btn, .btn_close {
+.btn,
+.btn_close {
   width: 150px;
   height: 50px;
   border-radius: 50px;
@@ -62,20 +63,53 @@ select {
   font-size: 32px;
 }
 
-.modal__mail svg, .modal__phone svg{
+.modal__mail svg,
+.modal__phone svg {
   font-size: 45px;
 }
 
-.modal__mail a, .modal__phone a {
+.modal__mail a,
+.modal__phone a {
   font-size: 32px;
   color: #000000;
   text-decoration: none;
   cursor: pointer;
 }
 
-.modal__mail, .modal__phone  {
+.modal__mail,
+.modal__phone {
   display: grid;
   grid-template-columns: 50px 1fr;
   gap: 10px;
   align-items: center;
+}
+
+/* Для планшета iPad 11 в горизонтальной ориентации */
+@media only screen and (min-device-width: 834px) and (max-device-width: 1194px){
+  .header {
+    grid-template-columns: 100px 450px 120px 100px;
+  }
+
+  .link {
+    margin-right: 30px;
+    font-size: 18px;
+  }
+
+  .btn,
+  .btn_close {
+    width: 120px;
+    height: 40px;
+    font-size: 12px;
+  }
+
+  select {
+    width: 40px;
+    height: 24px;
+    font-size: 12px;
+  }
+}
+
+/* Для мобильного телефона */
+@media only screen and (max-width: 767px) {
+  /* Ваш стиль для мобильного телефона */
 }

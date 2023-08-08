@@ -6,3 +6,10 @@
   font-weight: 400;
 }
 
+@media only screen and (min-device-width: 834px) and (max-device-width: 1194px){
+
+  .text {
+    font-size: 22px;
+    
+  }
+}

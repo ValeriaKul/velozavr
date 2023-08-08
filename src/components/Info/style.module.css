@@ -26,3 +26,32 @@
   font-style: italic;
   line-height: 35px;
 }
+
+@media only screen and (min-device-width: 834px) and (max-device-width: 1194px){
+
+  .services img {
+    width: 100%;
+  }
+
+  .info {
+    width: fit-content;
+    padding: 25px 20px;
+    justify-content: center;
+    gap: 20px;
+
+  }
+
+  .services {
+    grid-template-columns: 500px 1fr;
+    justify-items: end;
+  }
+
+  .name {
+    font-size: 28px;
+  }
+  
+  .text {
+    font-size: 20px;
+  }
+
+}

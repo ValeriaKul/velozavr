@@ -15,3 +15,28 @@
   line-height: 53px;
   padding: 0 50px;
 }
+
+@media only screen and (min-device-width: 834px) and (max-device-width: 1194px){
+  .conclusion {
+    grid-template-columns: 380px 1fr;
+    gap: 10px;
+  }
+
+  .conclusion img {
+    width: 350px;
+  }
+
+  .info {
+    gap: 20px;
+    line-height: 35px;
+    padding: 0 50px;
+  }
+
+  .info_name {
+    font-size: 28px;
+  }
+
+  .info_text {
+    font-size: 20px;
+  }
+}

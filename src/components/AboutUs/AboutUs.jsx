@@ -15,7 +15,7 @@ export default function AboutUs() {
           <h3 className={s.name}>{name}</h3>
           <p className={s.descr}>{text}</p>
         </div>
-        <img src="/velozavr/images/dino.png" alt="dino" width="543" />
+        <img className={s.img_dino} src="/velozavr/images/dino.png" alt="dino" />
       </div>
     </a>
   );

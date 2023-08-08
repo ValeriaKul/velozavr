@@ -29,7 +29,7 @@ export default function Header() {
         <a className={s.link} href="#services">
           {t("Services")}
         </a>
-        <a className={s.link} href="/">
+        <a className={s.link} href="#services">
           {t("Rent")}
         </a>
       </nav>

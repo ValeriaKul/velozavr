@@ -13,8 +13,8 @@ export default function Conclusion() {
     <div className={s.conclusion}>
       <img src="/velozavr/images/bikes.png" alt="bikes" />
       <div className={s.info}>
-        <p>{name}</p>
-        <p>{text}</p>
+        <p className={s.info_name}>{name}</p>
+        <p className={s.info_text}>{text}</p>
       </div>
     </div>
   );
