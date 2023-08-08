@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/velozavr/static/css/main.54b88206.css",
+    "main.js": "/velozavr/static/js/main.652409c2.js",
+    "index.html": "/velozavr/index.html",
+    "main.54b88206.css.map": "/velozavr/static/css/main.54b88206.css.map",
+    "main.652409c2.js.map": "/velozavr/static/js/main.652409c2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.54b88206.css",
+    "static/js/main.652409c2.js"
+  ]
+}
