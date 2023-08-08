@@ -21,7 +21,7 @@ export default function Header() {
 
   return (
     <div className={s.header}>
-      <img src="/images/logo.png" alt="logo" width="119" height="119" />
+      <img src="/velozavr/images/logo.png" alt="logo" width="119" height="119" />
       <nav>
         <a className={s.link} href="#about_us">
           {t("About us")}
