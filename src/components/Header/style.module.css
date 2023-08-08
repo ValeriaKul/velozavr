@@ -21,16 +21,23 @@
   padding-bottom: 10px;
 }
 
-.btn {
+.btn, .btn_close {
   width: 150px;
   height: 50px;
   border-radius: 50px;
   background-color: rgba(249, 182, 64, 1);
   color: rgba(255, 255, 255, 1);
-  font-size: 14px;
   font-style: italic;
   border: none;
   cursor: pointer;
+}
+
+.btn {
+  font-size: 14px;
+}
+
+.btn_close {
+  font-size: 22px;
 }
 
 select {
@@ -40,4 +47,35 @@ select {
   background-color: rgba(249, 182, 64, 1);
   color: rgba(255, 255, 255, 1);
   border: none;
+}
+
+.modal__frame {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  height: 100%;
+}
+
+.modal__comtacts {
+  font-size: 32px;
+}
+
+.modal__mail svg, .modal__phone svg{
+  font-size: 45px;
+}
+
+.modal__mail a, .modal__phone a {
+  font-size: 32px;
+  color: #000000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal__mail, .modal__phone  {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  gap: 10px;
+  align-items: center;
 }
