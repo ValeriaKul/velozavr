@@ -85,7 +85,7 @@ select {
 }
 
 /* Для планшета iPad 11 в горизонтальной ориентации */
-@media only screen and (min-device-width: 834px) and (max-device-width: 1194px){
+@media only screen and (min-device-width: 834px) and (max-device-width: 1274px){
   .header {
     grid-template-columns: 100px 450px 120px 100px;
   }
@@ -99,12 +99,6 @@ select {
   .btn_close {
     width: 120px;
     height: 40px;
-    font-size: 12px;
-  }
-
-  select {
-    width: 40px;
-    height: 24px;
     font-size: 12px;
   }
 }
