@@ -23,10 +23,10 @@ export default function Header() {
     <div className={s.header}>
       <img src="/images/logo.png" alt="logo" width="119" height="119" />
       <nav>
-        <a className={s.link} href="/">
+        <a className={s.link} href="#about_us">
           {t("About us")}
         </a>
-        <a className={s.link} href="/">
+        <a className={s.link} href="#services">
           {t("Services")}
         </a>
         <a className={s.link} href="/">
