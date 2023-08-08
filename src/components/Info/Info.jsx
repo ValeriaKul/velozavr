@@ -1,10 +1,12 @@
 import React from 'react'
 import s from './style.module.css';
+import { useTranslation } from "react-i18next";
 
 
 export default function Services() {
-    const name = 'Что мы предлагаем';
-    const text = 'В нашей мастерской можно выполнить комплексное техническое обслуживание велосипеда, ремонт и настройку всех его узлов, шиномонтажные работы. Вовремя проведенное ТО велосипеда помогает избежать многих проблем и дорогого ремонта.  Все работы выполняем качественно и с душой.';
+  const { t } = useTranslation();
+    const name = t('What do we offer');
+    const text = t('In our workshop, you can perform comprehensive maintenance of the bike, repair and adjustment of all its components, tire fitting work. Timely maintenance of the bike helps to avoid many problems and expensive repairs. All work is done with quality and passion.');
 
   return (
     <div className={s.services}>

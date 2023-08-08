@@ -1,10 +1,12 @@
 import React from 'react'
 import s from './style.module.css';
+import { useTranslation } from "react-i18next";
 
 
 export default function Banner() {
-    const text1 = 'Приехав к нам однажды, многие наши клиенты становятся постоянными, а часть из них даже друзьями.';
-    const text2 = 'А также в нашей мастерской можно отремонтировать электросамокат и электровелосипед.';
+  const { t } = useTranslation();
+    const text1 = t('Having come to us once, many of our customers become regulars, and some of them even become friends.');
+    const text2 = t('You can also repair electric scooters and electric bicycles in our workshop.');
 
   return (
     <div className={s.banner}>

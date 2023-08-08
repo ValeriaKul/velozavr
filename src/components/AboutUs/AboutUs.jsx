@@ -1,10 +1,13 @@
 import React from 'react'
 import s from './style.module.css';
+import { useTranslation } from "react-i18next";
+
 
 
 export default function AboutUs() {
-    const name = 'Веломастерская “Велозар”';
-    const text = 'Мы, мастера веломастерской «Велозар», как раз те самые счастливые люди, которые смогли превратить свое увлечение и хобби в профессию. Мы сами любим кататься и хотим чтобы Ваш двухколесный друг приносил Вам только радость и удовольствие от езды.'
+  const { t } = useTranslation();
+    const name = t('Bicycle workshop “Velozar”');
+    const text = t('We, the masters of the Velozar bicycle workshop, are just the very happy people who were able to turn their passion and hobby into a profession. We ourselves love to ride and want your two-wheeled friend to bring you only joy and pleasure from riding.');
   return (
     <div className={s.aboutUs}>
         <div className={s.info}>

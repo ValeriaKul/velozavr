@@ -1,10 +1,14 @@
 import React from "react";
 import s from "./style.module.css";
+import { useTranslation } from "react-i18next";
 
 export default function Conclusion() {
-  const name = "Прокат велосипедов";
-  const text =
-    "У нас вы можете взять на прокат хорошо обслуженные и настроенные велосипеды. Как раз мы находимся в прекрасном парке!";
+  const { t } = useTranslation();
+  const name = t("Bicycles for rent");
+  const text = t(
+    "You can rent well-maintained and tuned bikes from us. We are in a beautiful park!"
+  );
+
   return (
     <div className={s.conclusion}>
       <img src="/images/bikes.png" alt="bikes" />

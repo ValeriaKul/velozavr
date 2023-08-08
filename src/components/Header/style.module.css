@@ -1,7 +1,7 @@
 .header {
   background-color: rgba(244, 249, 226, 1);
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 250px 600px 250px 10px ;
   justify-content: center;
   justify-items: center;
   align-items: center;
@@ -31,4 +31,13 @@
   font-style: italic;
   border: none;
   cursor: pointer;
+}
+
+select {
+  width: 60px;
+  height: 30px;
+  border-radius: 12px;
+  background-color: rgba(249, 182, 64, 1);
+  color: rgba(255, 255, 255, 1);
+  border: none;
 }
