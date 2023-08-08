@@ -14,7 +14,7 @@ export default function Services() {
             <p className={s.name}>{name}</p>
             <p className={s.text}>{text}</p>
         </div>
-        <img src="/images/bike.png" alt="bike" width="520" height="604"/>
+        <img src="/velozavr/images/bike.png" alt="bike" width="520" height="604"/>
     </div>
   )
 }

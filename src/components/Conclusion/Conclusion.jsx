@@ -11,7 +11,7 @@ export default function Conclusion() {
 
   return (
     <div className={s.conclusion}>
-      <img src="/images/bikes.png" alt="bikes" />
+      <img src="/velozavr/images/bikes.png" alt="bikes" />
       <div className={s.info}>
         <p>{name}</p>
         <p>{text}</p>

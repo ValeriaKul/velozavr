@@ -5,7 +5,7 @@ export default function Box({name, background}) {
     const style = ['box', background].join(' ');
   return (
     <div className={style}>
-        <img src="/images/Rectangle.png" alt="rect" width='340'/>
+        <img src="/velozavr/images/Rectangle.png" alt="rect" width='340'/>
         <p className={s.text}>{name}</p>
     </div>
   )
