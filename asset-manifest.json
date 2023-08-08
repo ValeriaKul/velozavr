@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/velozavr/static/css/main.5fde986a.css",
+    "main.css": "/velozavr/static/css/main.913e6ca9.css",
     "main.js": "/velozavr/static/js/main.7bf4a08c.js",
     "index.html": "/velozavr/index.html",
-    "main.5fde986a.css.map": "/velozavr/static/css/main.5fde986a.css.map",
+    "main.913e6ca9.css.map": "/velozavr/static/css/main.913e6ca9.css.map",
     "main.7bf4a08c.js.map": "/velozavr/static/js/main.7bf4a08c.js.map"
   },
   "entrypoints": [
-    "static/css/main.5fde986a.css",
+    "static/css/main.913e6ca9.css",
     "static/js/main.7bf4a08c.js"
   ]
 }
