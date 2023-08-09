@@ -3,7 +3,11 @@
   grid-template-columns: repeat(3, 1fr);
 }
 
-@media only screen and (min-device-width: 834px) and (max-device-width: 1194px){
-
+@media only screen  and (max-device-width: 1194px){
+  .container {
+    display: flex;
+    flex-direction: column;
+    
+  }
   
 }

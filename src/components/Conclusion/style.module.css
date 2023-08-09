@@ -16,27 +16,34 @@
   padding: 0 50px;
 }
 
-@media only screen and (min-device-width: 834px) and (max-device-width: 1274px){
+@media only screen and (max-device-width: 1274px) {
   .conclusion {
-    grid-template-columns: 380px 1fr;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
     gap: 10px;
+    justify-content: center;
   }
 
   .conclusion img {
     width: 350px;
+    margin: 20px 0;
+    border-radius: 30%;
   }
 
   .info {
     gap: 20px;
     line-height: 35px;
-    padding: 0 50px;
+    padding: 10px 20px;
+    max-width: 600px;
   }
 
   .info_name {
-    font-size: 28px;
+    font-size: 20px;
   }
 
   .info_text {
-    font-size: 20px;
+    font-size: 18px;
   }
 }

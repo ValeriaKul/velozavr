@@ -85,7 +85,7 @@ select {
 }
 
 /* Для планшета iPad 11 в горизонтальной ориентации */
-@media only screen and (min-device-width: 834px) and (max-device-width: 1274px){
+@media only screen and (max-device-width: 1274px){
   .header {
     grid-template-columns: 100px 450px 120px 100px;
   }
@@ -104,6 +104,12 @@ select {
 }
 
 /* Для мобильного телефона */
-@media only screen and (max-width: 767px) {
-  /* Ваш стиль для мобильного телефона */
+@media only screen and (max-width: 834px) {
+  .header {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap:20px;
+    padding: 20px 0;
+  }
 }

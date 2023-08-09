@@ -27,11 +27,14 @@
   line-height: 35px;
 }
 
-@media only screen and (min-device-width: 834px) and (max-device-width: 1274px){
+@media only screen and (max-device-width: 1274px){
+
 
 
   .services img {
-    width: 100%;
+    height: 100%;
+    overflow: hidden;
+   
   }
 
   .info {
@@ -39,20 +42,23 @@
     padding: 25px 20px;
     justify-content: center;
     gap: 20px;
+    background-color: rgba(0, 0, 0, .7);
+    position: absolute;
+    top: 85%;
 
   }
 
   .services {
-    grid-template-columns: 500px 1fr;
-    justify-items: end;
+    display: flex;
+    justify-content: center;
   }
 
   .name {
-    font-size: 28px;
+    font-size: 20px;
   }
   
   .text {
-    font-size: 20px;
+    font-size: 18px;
   }
 
 }

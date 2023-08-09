@@ -17,13 +17,15 @@
   gap: 30px;
 }
 
-@media only screen and (min-device-width: 834px) and (max-device-width: 1274px){
+@media only screen and (max-device-width: 1274px){
+
 
   .banner {
-    height: 400px;
+    height: fit-content;
+    padding: 30px 20px;
   }
 
   .text p {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
