@@ -99,7 +99,11 @@ select {
   .btn_close {
     width: 120px;
     height: 40px;
-    font-size: 12px;
+  }
+
+  .btn_close {
+    font-size: 24px;
+
   }
 }
 

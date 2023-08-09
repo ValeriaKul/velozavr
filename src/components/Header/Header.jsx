@@ -54,7 +54,7 @@ export default function Header() {
             <a href="tel:+37120123456">+37120123456</a>
           </div>
           <button className={s.btn_close} onClick={() => setModalActive(false)}>
-            {t("Close")}
+            X
           </button>
         </div>
       </Modal>
