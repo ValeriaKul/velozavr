@@ -27,38 +27,34 @@
   line-height: 35px;
 }
 
-@media only screen and (max-device-width: 1274px){
-
-
+@media only screen and (max-device-width: 1274px) {
+  .services {
+    position: relative; /* Относительное позиционирование для размещения .info */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
   .services img {
     height: 100%;
     overflow: hidden;
-   
   }
 
   .info {
     width: fit-content;
     padding: 25px 20px;
-    justify-content: center;
-    gap: 20px;
-    background-color: rgba(0, 0, 0, .7);
+    background-color: rgba(0, 0, 0, 0.7);
     position: absolute;
-    top: 85%;
-
-  }
-
-  .services {
-    display: flex;
-    justify-content: center;
+    top: 50%; /* Положение по вертикали в центре */
+    transform: translate(0, -50%); /* Сдвиг на половину ширины и высоты */
+    text-align: center; /* Выравнивание текста по центру */
   }
 
   .name {
     font-size: 20px;
   }
-  
+
   .text {
     font-size: 18px;
   }
-
 }
