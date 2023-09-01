@@ -41,7 +41,6 @@ export default function Header() {
         <option value="en">{t("ENG")}</option>
         <option value="ukr">{t("UKR")}</option>
       </select>
-      {/* <Modal active={modalActive} setActive={setModalActive}/> */}
       <Modal active={modalActive} setActive={setModalActive}>
         <div className={s.modal__frame}>
           <p className={s.modal__comtacts}>{t('Contacts')}</p>
